@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-opencvLib.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\0UE.Project\ChronoPhysicsProject\Intermediate\Build\Win64\ChronoPhysicsProjectEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\0UE.Project\ChronoPhysicsProject\Plugins\opencvLib\Intermediate\Build\Win64\UE4Editor\Development\opencvLib\Module.opencvLib.cpp.obj"
+"E:\0UE.Project\ChronoPhysicsProject\Plugins\opencvLib\Intermediate\Build\Win64\UE4Editor\Development\opencvLib\Module.opencvLib.gen.cpp.obj"
+"E:\0UE.Project\ChronoPhysicsProject\Plugins\opencvLib\Intermediate\Build\Win64\UE4Editor\Development\opencvLib\Default.rc2.res"
+/OUT:"E:\0UE.Project\ChronoPhysicsProject\Plugins\opencvLib\Intermediate\Build\Win64\UE4Editor\Development\opencvLib\UE4Editor-opencvLib.lib"
+/INCLUDE:IMPLEMENT_MODULE_opencvLib

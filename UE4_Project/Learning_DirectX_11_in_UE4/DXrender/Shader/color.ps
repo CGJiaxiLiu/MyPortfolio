@@ -1,0 +1,54 @@
+Texture2DArray shaderTexture;
+SamplerState SampleType;
+
+cbuffer PSConstBuffer
+{
+	float intensity;
+	float3 lightDirection;
+	float specularPower;
+};
+
+struct PixelInputType
+{
+    float4 pos : SV_POSITION;
+    float3 normal : NORMAL;
+	float3 binormal : BINORMAL;
+	float3 tangent : TANGENT;
+	float2 tex : TEXCOORD;
+	float3 viewDirection : DIRECTION;
+	float fogFactor : FOG;
+	float clip : SV_ClipDistance0;
+};
+
+float4 ColorPixelShader(PixelInputType input) : SV_TARGET
+{
+
+
+	float4 textureColor;
+	float3 tex;
+	tex.x = input.tex.x;
+	tex.y = input.tex.y;
+	tex.z = 0;
+    textureColor = shaderTexture.Sample(SampleType, tex);
+	
+//	float3 bumpColor = shaderTexture[1].Sample(SampleType, input.tex);
+//	bumpColor = bumpColor * 2.0f -1.0f;
+	
+//	float3 bumpNormal = (bumpColor.x * input.tangent) + (bumpColor.y * input.binormal) + (bumpColor.z * input.normal);
+	float3 bumpNormal = input.normal;
+	bumpNormal = normalize(bumpNormal);
+	
+	float3 reflectedLightDirection = normalize(2 * dot(bumpNormal, -lightDirection) * bumpNormal + lightDirection);	
+	float reflectIntense = 0.8f * pow(saturate(dot(input.viewDirection, reflectedLightDirection)), 15.0f);
+	
+	float lightIntensity;
+	lightIntensity = 0.55f * saturate(dot(bumpNormal, normalize(-lightDirection)));
+
+	float4 fogcolor = float4(0.3f, 0.3f, 0.3f, 1.0f);
+	float4 result = intensity * (reflectIntense * float4(1.0f, 1.0f, 1.0f, 1.0f) + (lightIntensity + 0.05f) * textureColor);
+	result = fogcolor * (1.0f - input.fogFactor) + result * input.fogFactor;
+	result.a = 1.0f;
+	return result;
+
+}
+
