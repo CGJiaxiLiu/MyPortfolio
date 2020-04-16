@@ -7,6 +7,7 @@ Some works, including scripts for 3d CG program (Cinema4D and Houdini), UE4 and 
 Major in mechanical engineering during undergraduate in Tongji University and pursuing a master degree in CS in Gerogie Tech now, specialized in computer graphics.
 
 ## Content
+- Math, Physics & Graphics
 
 - Some Houdini Works
   - Algorithm Implementation And Math
@@ -33,7 +34,7 @@ Major in mechanical engineering during undergraduate in Tongji University and pu
     - [Auto Model Separation And Export](Cinema4D_Project)
     
 - Misc Stuff
-  - Embedded System: [Using A Self-Made JoyStick In UE4](Misc/A_Self-Made_JoyStick)
+  - Embedded System: [Using A Self-Made JoyStick In UE4](Misc/DIY_JoyStick)
   - [Play Music With Switch Joycon](Misc/Use_Switch_Joycon_Play_Music)
   - Gallery: [Modeling](Misc/Modelling)
     
