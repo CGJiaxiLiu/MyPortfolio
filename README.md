@@ -8,7 +8,10 @@ Major in mechanical engineering during undergraduate in Tongji University and pu
 
 ## Content
 - Math, Physics & Graphics
-
+  - [Animation](Math,Physics&Graphics/Computer_Animation/)
+  - [AI In Video Game](Math,Physics&Graphics/Game_AI/)
+  - [Graphics](Math,Physics&Graphics/Computer_Graphics/)
+  - [Misc](Math,Physics&Graphics/Something_about_the_field/)
 - Some Houdini Works
   - Algorithm Implementation And Math
     - [Auto UV Mapping Basing On Conformal Mapping](Houdini_Project/Algorithm_And_Math/Auto_UV_Mapping)
@@ -23,6 +26,7 @@ Major in mechanical engineering during undergraduate in Tongji University and pu
   
 - Some UE4 Works
   - UE4 Project
+    - [Character Animation](UE4_Project/Animation)
     - [Robot Physics Rigging](UE4_Project/Physics_In_UE4)
     - [Using OpenCV In UE4](UE4_Project/Using_OpenCV_in_UE4)
     - [Learning DirectX 11 In UE4](UE4_Project/Learning_DirectX_11_in_UE4)
@@ -34,7 +38,7 @@ Major in mechanical engineering during undergraduate in Tongji University and pu
     - [Auto Model Separation And Export](Cinema4D_Project)
     
 - Misc Stuff
-  - Embedded System: [Using A Self-Made JoyStick In UE4](Misc/DIY_JoyStick)
+  - Embedded System: [Using A DIY JoyStick In UE4](Misc/DIY_JoyStick)
   - [Play Music With Switch Joycon](Misc/Use_Switch_Joycon_Play_Music)
   - Gallery: [Modeling](Misc/Modelling)
     
