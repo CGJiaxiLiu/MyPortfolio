@@ -26,7 +26,7 @@ Major in mechanical engineering during undergraduate in Tongji University and pu
   
 - Some UE4 Works
   - UE4 Project
-    - [Character Animation](UE4_Project/Animation)
+    - [Character Animation](UE4_Project/Robot_Animation)
     - [Robot Physics Rigging](UE4_Project/Physics_In_UE4)
     - [Using OpenCV In UE4](UE4_Project/Using_OpenCV_in_UE4)
     - [Learning DirectX 11 In UE4](UE4_Project/Learning_DirectX_11_in_UE4)
@@ -40,5 +40,6 @@ Major in mechanical engineering during undergraduate in Tongji University and pu
 - Misc Stuff
   - Embedded System: [Using A DIY JoyStick In UE4](Misc/DIY_JoyStick)
   - [Play Music With Switch Joycon](Misc/Use_Switch_Joycon_Play_Music)
+  - [My First Video Game](Misc/Sinking_Ship)
   - Gallery: [Modeling](Misc/Modelling)
     
