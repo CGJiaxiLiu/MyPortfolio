@@ -11,6 +11,8 @@ Basic CFD simulaton scheme
 
 <br />
 
+# Interactive field design
+
 Interactive design and subdivision of a divergence-free (incompressible) vector field. Draw the trace of the particle in the field with the green line. Implemented in Processing.
 
 ![collision](/Math_Physics_Graphics/Something_about_the_field/field.gif)
