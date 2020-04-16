@@ -4,4 +4,5 @@ Create a simple two-legged robot and keyframe walking, turning and jumping anima
 
 ![figure](robot.png)
 
+Watch on Vimeo:
 [Robot Animation](https://vimeo.com/408257269)
