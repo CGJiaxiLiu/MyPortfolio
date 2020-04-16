@@ -8,10 +8,10 @@ Major in mechanical engineering during undergraduate in Tongji University and pu
 
 ## Content
 - Math, Physics & Graphics
-  - [Animation](Math,Physics&Graphics/Computer_Animation/)
-  - [AI In Video Game](Math,Physics&Graphics/Game_AI/)
-  - [Graphics](Math,Physics&Graphics/Computer_Graphics/)
-  - [Misc](Math,Physics&Graphics/Something_about_the_field/)
+  - [Animation](Math_Physics_Graphics/Computer_Animation)
+  - [AI In Video Game](Math_Physics_Graphics/Game_AI)
+  - [Graphics](Math_Physics_Graphics/Computer_Graphics)
+  - [Misc](Math_Physics_Graphics/Something_about_the_field)
 - Some Houdini Works
   - Algorithm Implementation And Math
     - [Auto UV Mapping Basing On Conformal Mapping](Houdini_Project/Algorithm_And_Math/Auto_UV_Mapping)
