@@ -13,4 +13,3 @@ The three scene capture actor render scene from diferent view to three rendertar
 Here are the result. From left to right and top to bottom, right camera, left camera, disparity and actual depth data.
 <br /><br />
 ![four_figure](/UE4_Project/Using_OpenCV_in_UE4/four_figure.png)
-Actually I didn't figure how to compute depth from disparity, so the third figure is the disparity of two top ones.
