@@ -2,10 +2,10 @@
 Not good at rendering:sob: Some work maybe years ago. But it is modelling and rendering that arise my interest in CG.
 
 <br /><br />
-A mechanical dragon skeleton
+A mechanical dragon skeleton<br />
 <img src="/Misc/Modelling/dragon.jpg" width="500" >
 <br /><br />
-A walking cycle
+A walking cycle<br />
 <img src="/Misc/Modelling/dragon_animation.gif" width="500" >
 <br /><br />
 A bike (Matrix F18 triathlon bike)<br />
