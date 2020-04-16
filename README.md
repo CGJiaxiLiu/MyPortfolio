@@ -1,6 +1,6 @@
 # A Portfolio of Jiaxi Liu
 
-Some works, including scripts for 3d CG program (Cinema4D and Houdini), UE4 and Houdini projects, plugins, 3D model, etc.
+My works in free time and on class.
 
 ## About Me
 
