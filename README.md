@@ -1,6 +1,6 @@
 # A Portfolio of Jiaxi Liu
 
-Some works, including scripts for 3d CG program (Cinema4D and Houdini), UE4 and Houdini projects, plugins, 3D model, etc.
+My works in free time and on class.
 
 ## About Me
 
@@ -40,6 +40,6 @@ Major in mechanical engineering during undergraduate in Tongji University and pu
 - Misc Stuff
   - Embedded System: [Using A DIY JoyStick In UE4](Misc/DIY_JoyStick)
   - [Play Music With Switch Joycon](Misc/Use_Switch_Joycon_Play_Music)
-  - [My First Video Game](Misc/Sinking_Ship)
+  - My First Video Game: [Escape From A Sinking Ship](Misc/Sinking_Ship)
   - Gallery: [Modeling](Misc/Modelling)
     
